@@ -98,6 +98,18 @@ https://xxxxx.com@SgL6_2132_auth=xxxxxxxxxxx;SgL6_2132_saltkey=xxxxxx&https://xx
 
 ![v2ex](https://img2.imgtp.com/2024/05/22/Ce612EwM.png)
 
+### 海贼王论坛
+
+|      Name       |                   Value                    |                             说明                             |
+| :-------------: | :----------------------------------------: | :----------------------------------------------------------: |
+| `TALKOP_COOKIE` | `3yWf_2132_auth=xxx;3yWf_2132_saltkey=xxx` | 打开司机社网站，F12，选择 Application，点击 Cookies 获取键值对：`3yWf_2132_auth=xxx;3yWf_2132_saltkey=xxx` |
+
+### 智能电视
+
+|     Name      |                   Value                    |                             说明                             |
+| :-----------: | :----------------------------------------: | :----------------------------------------------------------: |
+| `ZNDS_COOKIE` | `s9it_2132_auth=xxx;s9it_2132_saltkey=xxx` | 打开司机社网站，F12，选择 Application，点击 Cookies 获取键值对：`s9it_2132_auth=xxx;s9it_2132_saltkey=xxx` |
+
 ### 消息推送变量（可选）
 
 如果你想要程序执行后进行消息推送，那么任选一种或多种方式进行配置
