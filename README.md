@@ -1,13 +1,20 @@
 <p align="center">
-    <h1 align="center">scripts</h1>
+<h1 align="center">scripts</h1>
 </p>
 <p align="center">
     一些脚本，每天定时自动签到
-    <br />
-    <br />
-    <a href="https://github.com/sudojia/scripts/issues/new">上报 Bug、意见反馈</a>
-  </p>
-
+    <br/>
+    <br/>
+    <a href="https://github.com/sudojia/scripts/issues/new" target="_blank">🐞上报 Bug、🤔问题反馈、📄需求提报！</a>
+</p>
+<p align="center">
+    <img alt="Gitea Stars" src="https://img.shields.io/github/stars/sudojia/scripts?style=flat-square&logo=GitHub">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/sudojia/scripts?style=flat-square&logo=GitHub">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/sudojia/scripts?style=flat-square&logo=GitHub">
+    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues-closed-raw/sudojia/scripts?style=flat-square&logo=GitHub">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/sudojia/scripts?style=flat-square&logo=GitHub">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/sudojia/scripts?style=flat-square">
+</p>
 
 
 
@@ -16,13 +23,14 @@
 - [👍服务器推荐](#服务器推荐)
 - [⭐点个 Star 支持作者](#点个-star-支持作者)
 - [⚖️许可证](#%EF%B8%8F许可证)
-- [🕛历程](#历程)
+- [🕛更新日志 ](#更新日志)
 
 ## 💍介绍
 
-这是一个基于本人无聊时开发的自动化脚本，旨在每天定时自动执行一些签到奖励以及繁琐任务
+这是一个基于本人无聊时开发的自动化脚本，旨在每天定时自动执行一些签到奖励以及繁琐任务！
 
-环境变量参考：[环境变量说明](./docs/ENV_DESC.md)
+- [💡查看环境变量配置指南](./docs/ENV_DESC.md "环境变量配置指南")
+- [📑查看脚本列表](./docs/SCRIPT_LIST.md "快速访问所有脚本详情")
 
 ## 🔛使用
 
@@ -80,17 +88,40 @@
 
 本脚本库使用 [GPLv3](https://github.com/sudojia/scripts/blob/script/LICENSE) 许可证，脚本库中任何脚本未经允许**不可商用**。宣传或转载时请带上[本脚本库链接](https://github.com/sudojia/scripts)。
 
-## 🕛历程
+## 🕛更新日志 
 
-|    时间    |                             事件                             |
-| :--------: | :----------------------------------------------------------: |
-| 2024-05-29 |                         适配青龙面板                         |
-| 2024-05-28 | 1. 重构并新建 script 分支，删除原 master 分支<br>2. 移除 Steam 游玩时长获取脚本 |
-| 2024-05-22 |                      新增 V2EX 签到脚本                      |
-| 2024-05-21 | 掘金社区大更新<br>1. 添加了成长等级自动任务、目前只写了社区活跃下的任务<br>2. 移动端每日登录访问和发布文章任务有时间再写 |
-| 2024-05-20 |                      新增司机社签到脚本                      |
-| 2024-05-18 |                新增阿里云盘、百度贴吧签到脚本                |
-| 2024-05-17 |               脚本库优化并使用 axios 发送请求                |
-| 2023-11-21 |                   新增 Steam 游玩时长获取                    |
-| 2022-09-27 |               移除葫芦侠（葫芦侠加了签名参数）               |
-| 2022-01-20 | 1. 新增掘金社区签到&抽奖脚本<br>2. 应网友要求新增葫芦侠签到（一开始还以为看剧的葫芦...） |
+<details>
+<summary>点击展开</summary>
+
+
+- 2024-05-31
+
+  - 新增海贼王论坛每日签到
+  - 新增智能电视每日签到
+
+- 2024-05-29 适配青龙面板
+- 2024-05-28
+  - 重构并新建 script 分支，删除原 master 分支
+  - 移除 Steam 游玩时长获取脚本
+- 2024-05-22 新增 V2EX 每日签到
+- 2024-05-21 稀土掘金新增[成长等级](https://juejin.cn/user/center/growth)自动任务
+- 2024-05-20 新增司机社每日签到
+- 2024-05-18
+  - 新增阿里云盘每日签到
+  - 新增百度贴吧每日签到
+- 2024-05-17 优化使用 axios
+- 2023-11-21 新增 Steam 游玩时长获取
+- 2022-09-27 移除葫芦侠
+- 2022-01-20
+  - 新增稀土掘金每日签到和抽奖任务
+  - 新增葫芦侠三楼板块每日签到
+- 2021-09-27 SSPANEL 面板更改变量写法
+
+  - 采用一个变量，单个规则为：网站,账号:密码 多个：网站,账号:密码&网站,账号:密码
+
+- 2021-09-26
+  - SSPANEL 面板支持多账号及多网站签到
+  - 添加多个消息推送（Telegram、server 酱、Bark、PushPlus、钉钉等）
+- 2021-09-25 新增 SSPANEL 面板每日签到
+
+</details>
