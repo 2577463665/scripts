@@ -1,1 +1,776 @@
-const a=['6YCa55+l5raI5oGv5oiQ5Yqf8J+OiQo=','VEdfQk9UX1RPS0VO','c2VydmVy6YWx5Y+R6YCB6YCa55+l5raI5oGv5byC5bi4OiA=','VGVsZWdyYW3lj5HpgIHpgJrnn6Xmtojmga/miJDlip/wn46J44CCCg==','ZXhwb3J0cw==','dGV4dD0=','UVFfU0tFWQ==','UFVTSF9LRVk=','bGVuZ3Ro','Y3J5cHRv','6K+35Li75Yqo57uZYm905Y+R6YCB5LiA5p2h5raI5oGv5bm25qOA5p+l5o6l5pS255So5oi3SUTmmK/lkKbmraPnoa7jgIIK','dG9Mb3dlckNhc2U=','aHR0cHM6Ly9hcGkuZGF5LmFwcC8=','ZW52','5pm66IO95Yqp5omL','VEdfVVNFUl9JRA==','ZGF0YQ==','cmV0','aHR0cHM6Ly9zYy5mdHFxLmNvbS8=','Z28tY3FodHRw5Y+R6YCB6YCa55+l5raI5oGv5byC5bi4OiA=','JmRpc2FibGVfd2ViX3BhZ2VfcHJldmlldz10cnVl','cG9zdA==','R09CT1RfVVJM','aHR0cHM6Ly9wdXNoLnh1dGh1cy5jYy8=','5oKo5omA5o+Q5L6b55qESUdPVF9QVVNIX0tFWeaXoOaViAo=','bWVzc2FnZQ==','CuacrOiEmuacrOWFjei0ueS9v+eUqO+8mmh0dHBzOi8vZ2l0aHViLmNvbS9zdWRvamlhL3NjcmlwdHM=','JnRpbWVzdGFtcD0=','dGV4dA==','aW5kZXhPZg==','Z28tY3FodHRw5Y+R6YCB6YCa55+l5raI5oGv5oiQ5Yqf8J+OiQo=','RERfQk9UX1RPS0VO','VGVsZWdyYW0gYm90IHRva2VuIOWhq+WGmemUmeivr+OAggo=','5LyB5Lia5b6u5L+h5Y+R6YCB6YCa55+l5raI5oGv5oiQ5Yqf8J+OieOAggo=','aHR0cA==','UVlXWF9LRVk=','aHR0cHM6Ly9vYXBpLmRpbmd0YWxrLmNvbS9yb2JvdC9zZW5kP2FjY2Vzc190b2tlbj0=','ZXJybXNn','UFVTSF9QTFVTX1RPS0VO','cXVlcnlzdHJpbmc=','6YW35o6o5Y+R6YCB','c2VydmVy6YWx5Y+R6YCB6YCa55+l5raI5oGv5oiQ5Yqf8J+OiQo=','LnNlbmQ=','cGFyc2U=','Z28tY3FodHRw5Y+R6YCB6YCa55+l5raI5oGv5byC5bi4Cg==','QkFSS19TT1VORA==','bm93','UFVTSF9QTFVTX1VTRVI=','ZXJyTXNn','UVHnvqQ=','c3RyaW5naWZ5','ZXJyY29kZQ==','dGVzdA==','SUdPVF9QVVNIX0tFWQ==','c3BsaXQ=','Y29kZQ==','aHR0cHM6Ly9xeWFwaS53ZWl4aW4ucXEuY29tL2NnaS1iaW4vZ2V0dG9rZW4=','5LyB5Lia5b6u5L+h5bqU55So5raI5oGv5Y+R6YCB6YCa55+l5raI5oGv5oiQ5Yqf8J+OieOAggo=','Jmdyb3VwPQ==','6YCa55+l5raI5oGv5aSx6LSl77ya','aHR0cHM=','YXNzaWdu','JnNpZ249','dXBkYXRl','aUdvdOWPkemAgemAmuefpea2iOaBr+Wksei0pe+8mg==','c3RyaW5n','aHR0cHM6Ly9xeWFwaS53ZWl4aW4ucXEuY29tL2NnaS1iaW4vd2ViaG9vay9zZW5kP2tleT0=','VEdfUFJPWFlfSE9TVA==','R09CT1RfUVE=','5pyq55+l5pa55byP','aHR0cHM6Ly9wdXNoLmhlbGx5dy5jb20v','bG9nRXJy','VEdfUFJPWFlfUE9SVA==','UVFfTU9ERQ==','5LiA5a+55LiA','5LiA5a+55aSa','L3NlbmRNZXNzYWdl','ZXJybm8=','JmNvbnRlbnQ9','VEdfQVBJX0hPU1Q=','6ZKJ6ZKJ5Y+R6YCB6YCa55+l5raI5oGv5a6M5oiQ44CCCg==','YXBwbGljYXRpb24vanNvbg==','UVHphbfmjqgoQ29vbCBQdXNoKeWPkemAgQ==','VEdfUFJPWFlfQVVUSA==','6YCa55+l6LCD55SoQVBJ5aSx6LSl77yB77yBCg==','PGJyLz4=','aHR0cHNPdmVySHR0cA==','c2hhMjU2','ZW1haWw=','5Y+R6YCB6YCa55+l6LCD55SoQVBJ5aSx6LSl77yB77yBCg==','cmV0Y29kZQ==','UVHphbfmjqjlh7rplJnvvIw=','6YCa55+l5raI5oGv5aSx6LSl77yB77yBCg==','UVlXWF9BTQ==','6YCa55+l5raI5oGv5a6M5oiQ44CCCg==','bWF0Y2g=','YWNjZXNzX3Rva2Vu','P2FjY2Vzc190b2tlbj0=','bG9n','5o6o6YCB5aSx6LSl77ya','YWxs','aW5jbHVkZXM=','Z2V0','Li9lbnY=','QkFSS19QVVNI','YXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVk','6ZKJ6ZKJ5Y+R6YCB6YCa55+l5raI5oGv5aSx6LSl77yB77yBCg==','QmFyayBBUFDlj5HpgIHpgJrnn6XosIPnlKhBUEnlpLHotKXvvIHvvIEK','aUdvdOWPkemAgemAmuefpea2iOaBr+aIkOWKn/CfjokK','5oiQ5ZGYSUQ6','ZXJyb3JfY29kZQ==','P3NvdW5kPQ==','ZGlnZXN0','aHR0cHM6Ly9zY3RhcGkuZnRxcS5jb20v','Z3JvdXA=','bXNn','R09CT1RfVE9LRU4=','XlthLXpBLVowLTldezI0fSQ=','cmVwbGFjZQ==','c3Vkb2ppYV9zY3JpcHQ='];(function(b,c){const d=function(e){while(--e){b['push'](b['shift']());}};d(++c);}(a,0x1ba));const b=function(c,d){c=c-0x0;let e=a[c];if(b['TXTVzH']===undefined){(function(){let g;try{const i=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');g=i();}catch(j){g=window;}const h='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';g['atob']||(g['atob']=function(k){const l=String(k)['replace'](/=+$/,'');let m='';for(let n=0x0,o,p,q=0x0;p=l['charAt'](q++);~p&&(o=n%0x4?o*0x40+p:p,n++%0x4)?m+=String['fromCharCode'](0xff&o>>(-0x2*n&0x6)):0x0){p=h['indexOf'](p);}return m;});}());b['duYKOm']=function(g){const h=atob(g);let j=[];for(let k=0x0,l=h['length'];k<l;k++){j+='%'+('00'+h['charCodeAt'](k)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(j);};b['sRyWdt']={};b['TXTVzH']=!![];}const f=b['sRyWdt'][c];if(f===undefined){e=b['duYKOm'](e);b['sRyWdt'][c]=e;}else{e=f;}return e;};const c=require(b('0x4d'));const d=require(b('0x15'));const e=new d();const f=0x3a98;let g='';let h='';let i='';let j='';let k='';let l='';let m=b('0x25');let n='';let o='';let p='';let q='';let r='';let s='api.telegram.org';let t='';let u='';let v='';let w='';let x='';let y='';let z='';if(process[b('0x33')][b('0x3c')]){g=process[b('0x33')]['GOBOT_URL'];}if(process[b('0x33')][b('0x22')]){h=process['env'][b('0x22')];}if(process[b('0x33')][b('0x6a')]){i=process[b('0x33')][b('0x6a')];}if(process[b('0x33')][b('0x2d')]){j=process[b('0x33')]['PUSH_KEY'];}if(process[b('0x33')][b('0x2c')]){QQ_SKEY=process[b('0x33')][b('0x2c')];}if(process[b('0x33')]['QQ_MODE']){QQ_MODE=process[b('0x33')][b('0x6f')];}if(process[b('0x33')][b('0x16')]){if(process[b('0x33')]['BARK_PUSH'][b('0x43')](b('0x62'))>-0x1||process['env']['BARK_PUSH'][b('0x43')](b('0x48'))>-0x1){k=process[b('0x33')]['BARK_PUSH'];}else{k=b('0x32')+process['env']['BARK_PUSH'];}if(process['env'][b('0x53')]){l=process[b('0x33')][b('0x53')];}if(process[b('0x33')]['BARK_GROUP']){m=process[b('0x33')]['BARK_GROUP'];}}else{if(k&&k[b('0x43')](b('0x62'))===-0x1&&k['indexOf'](b('0x48'))===-0x1){k=b('0x32')+k;}}if(process[b('0x33')][b('0x27')]){n=process[b('0x33')][b('0x27')];}if(process['env']['TG_USER_ID']){o=process[b('0x33')][b('0x35')];}if(process[b('0x33')][b('0x1')])r=process['env'][b('0x1')];if(process['env'][b('0x69')])p=process['env'][b('0x69')];if(process[b('0x33')][b('0x6e')])q=process[b('0x33')][b('0x6e')];if(process[b('0x33')]['TG_API_HOST'])s=process[b('0x33')][b('0x75')];if(process[b('0x33')][b('0x45')]){t=process[b('0x33')]['DD_BOT_TOKEN'];if(process[b('0x33')]['DD_BOT_SECRET']){u=process[b('0x33')]['DD_BOT_SECRET'];}}if(process[b('0x33')][b('0x49')]){v=process['env'][b('0x49')];}if(process[b('0x33')][b('0xb')]){w=process[b('0x33')][b('0xb')];}if(process['env'][b('0x5b')]){x=process[b('0x33')][b('0x5b')];}if(process['env'][b('0x4c')]){y=process['env'][b('0x4c')];}if(process[b('0x33')][b('0x55')]){z=process[b('0x33')][b('0x55')];}async function A(M,N,O={},P=b('0x40')){N+=P;await Promise[b('0x12')]([C(M,N),L(M,N)]);M=M['match'](/.*?(?=\s?-)/g)?M[b('0xd')](/.*?(?=\s?-)/g)[0x0]:M;await Promise['all']([E(M,N,O),F(M,N),G(M,N),H(M,N),J(M,N),K(M,N,O),B(M,N)]);}function B(M,N,O=0x834){return new Promise(P=>{if(g){const Q={'url':g+b('0xf')+h+'&'+i,'json':{'message':M+'\x0a'+N},'headers':{'Content-Type':b('0x77')},'timeout':f};setTimeout(()=>{e[b('0x3b')](Q,(R,S,T)=>{try{if(R){console[b('0x10')]('发送go-cqhttp通知调用API失败！！\x0a');console[b('0x10')](R);}else{T=JSON[b('0x51')](T);if(T[b('0x8')]===0x0){console[b('0x10')](b('0x44'));}else if(T[b('0x8')]===0x64){console['log'](b('0x39')+T[b('0x4b')]+'\x0a');}else{console[b('0x10')](b('0x52')+JSON[b('0x58')](T));}}}catch(U){e[b('0x6d')](U,S);}finally{P(T);}});},O);}else{P();}});}function C(M,N,O=0x834){return new Promise(P=>{if(j){N=N[b('0x24')](/[\n\r]/g,'\x0a\x0a');const Q={'url':j[b('0x13')]('SCT')?b('0x1f')+j+b('0x50'):b('0x38')+j+'.send','body':b('0x2b')+M+'&desp='+N,'headers':{'Content-Type':b('0x17')},'timeout':f};setTimeout(()=>{e[b('0x3b')](Q,(R,S,T)=>{try{if(R){console['log']('发送通知调用API失败！！\x0a');console[b('0x10')](R);}else{T=JSON[b('0x51')](T);if(T[b('0x73')]===0x0||T[b('0x36')]['errno']===0x0){console['log'](b('0x4f'));}else if(T[b('0x73')]===0x400){console['log'](b('0x28')+T[b('0x4b')]+'\x0a');}else{console[b('0x10')]('server酱发送通知消息异常\x0a'+JSON[b('0x58')](T));}}}catch(U){e['logErr'](U,S);}finally{P(T);}});},O);}else{P();}});}function D(M,N){return new Promise(O=>{if(QQ_SKEY){let P={'url':b('0x3d')+QQ_MODE+'/'+QQ_SKEY,'headers':{'Content-Type':b('0x77')}};M=M['replace'](/京豆/g,'豆豆');N=N['replace'](/京豆/g,'');N=N['replace'](/🐶/g,'');N=N['replace'](/红包/g,'H包');switch(QQ_MODE){case b('0x6'):P['json']={'t':M,'c':N};break;default:P['body']=M+'\x0a\x0a'+N;}let Q=function(R){switch(R){case'send':return'个人';case b('0x20'):return b('0x57');case'wx':return'微信';case'ww':return'企业微信';case b('0x6'):return'邮件';default:return b('0x6b');}};e[b('0x3b')](P,(R,S,T)=>{try{if(R){console[b('0x10')]('发送'+Q(QQ_MODE)+b('0x2'));console['log'](R);}else{T=JSON[b('0x51')](T);if(T['code']===0xc8){console[b('0x10')](b('0x4e')+Q(QQ_MODE)+b('0x26'));}else if(T[b('0x5d')]===0x190){console['log'](b('0x0')+Q(QQ_MODE)+b('0x11')+T[b('0x21')]+'\x0a');}else if(T[b('0x5d')]===0x1f7){console[b('0x10')](b('0x9')+T[b('0x3f')]+'：'+T[b('0x36')]+'\x0a');}else{console[b('0x10')]('酷推推送异常:\x20'+JSON['stringify'](T));}}}catch(U){e[b('0x6d')](U,S);}finally{O(T);}});}else{O();}});}function E(M,N,O={}){return new Promise(P=>{if(k){const Q={'url':k+'/'+encodeURIComponent(M)+'/'+encodeURIComponent(N)+b('0x1d')+l+b('0x60')+m+'&'+c[b('0x58')](O),'headers':{'Content-Type':b('0x17')},'timeout':f};e[b('0x14')](Q,(R,S,T)=>{try{if(R){console['log'](b('0x19'));console[b('0x10')](R);}else{T=JSON['parse'](T);if(T[b('0x5d')]===0xc8){console[b('0x10')]('Bark\x20APP发送通知消息成功🎉\x0a');}else{console[b('0x10')](T[b('0x3f')]+'\x0a');}}}catch(U){e[b('0x6d')](U,S);}finally{P();}});}else{P();}});}function F(M,N){return new Promise(O=>{if(n&&o){const P={'url':'https://'+s+'/bot'+n+b('0x72'),'body':'chat_id='+o+'&text='+M+'\x0a\x0a'+N+b('0x3a'),'headers':{'Content-Type':'application/x-www-form-urlencoded'},'timeout':f};if(p&&q){const Q=require('tunnel');const R={'https':Q[b('0x4')]({'proxy':{'host':p,'port':q*0x1,'proxyAuth':r}})};Object[b('0x63')](P,{'agent':R});}e[b('0x3b')](P,(S,T,U)=>{try{if(S){console[b('0x10')]('telegram发送通知消息失败！！\x0a');console['log'](S);}else{U=JSON[b('0x51')](U);if(U['ok']){console['log'](b('0x29'));}else if(U[b('0x1c')]===0x190){console[b('0x10')](b('0x30'));}else if(U[b('0x1c')]===0x191){console[b('0x10')](b('0x46'));}}}catch(V){e[b('0x6d')](V,T);}finally{O(U);}});}else{O();}});}function G(M,N){return new Promise(O=>{const P={'url':b('0x4a')+t,'json':{'msgtype':b('0x42'),'text':{'content':'\x20'+M+'\x0a\x0a'+N}},'headers':{'Content-Type':b('0x77')},'timeout':f};if(t&&u){const Q=require(b('0x2f'));const R=Date[b('0x54')]();const S=Q['createHmac'](b('0x5'),u);S[b('0x65')](R+'\x0a'+u);const T=encodeURIComponent(S[b('0x1e')]('base64'));P['url']=P['url']+b('0x41')+R+b('0x64')+T;e[b('0x3b')](P,(U,V,W)=>{try{if(U){console['log']('钉钉发送通知消息失败！！\x0a');console[b('0x10')](U);}else{W=JSON['parse'](W);if(W[b('0x59')]===0x0){console[b('0x10')]('钉钉发送通知消息成功🎉。\x0a');}else{console[b('0x10')](W['errmsg']+'\x0a');}}}catch(X){e[b('0x6d')](X,V);}finally{O(W);}});}else if(t){e[b('0x3b')](P,(U,V,W)=>{try{if(U){console[b('0x10')](b('0x18'));console[b('0x10')](U);}else{W=JSON[b('0x51')](W);if(W[b('0x59')]===0x0){console['log'](b('0x76'));}else{console[b('0x10')](W[b('0x4b')]+'\x0a');}}}catch(X){e[b('0x6d')](X,V);}finally{O(W);}});}else{O();}});}function H(M,N){return new Promise(O=>{const P={'url':b('0x68')+v,'json':{'msgtype':b('0x42'),'text':{'content':'\x20'+M+'\x0a\x0a'+N}},'headers':{'Content-Type':b('0x77')},'timeout':f};if(v){e[b('0x3b')](P,(Q,R,S)=>{try{if(Q){console[b('0x10')]('企业微信发送通知消息失败！！\x0a');console['log'](Q);}else{S=JSON[b('0x51')](S);if(S[b('0x59')]===0x0){console[b('0x10')](b('0x47'));}else{console[b('0x10')](S[b('0x4b')]+'\x0a');}}}catch(T){e[b('0x6d')](T,R);}finally{O(S);}});}else{O();}});}function I(M){const N=w[b('0x5c')](',');if(N[0x2]){const O=N[0x2][b('0x5c')]('|');let P='';for(let Q=0x0;Q<O[b('0x2e')];Q++){const R='账号'+(Q+0x1);const S='签到号\x20'+(Q+0x1);if(M[b('0xd')](S)){P=O[Q];}}if(!P)P=N[0x2];return P;}else{return'@all';}}function J(M,N){return new Promise(O=>{if(w){const P=w['split'](',');const Q={'url':b('0x5e'),'json':{'corpid':''+P[0x0],'corpsecret':''+P[0x1]},'headers':{'Content-Type':b('0x77')},'timeout':f};e[b('0x3b')](Q,(R,S,T)=>{html=N[b('0x24')](/\n/g,b('0x3'));var U=JSON['parse'](T);accesstoken=U[b('0xe')];let V;switch(P[0x4]){case'0':V={'msgtype':'textcard','textcard':{'title':''+M,'description':''+N,'url':'https://github.com/whyour/qinglong','btntxt':'更多'}};break;case'1':V={'msgtype':'text','text':{'content':M+'\x0a\x0a'+N}};break;default:V={'msgtype':'mpnews','mpnews':{'articles':[{'title':''+M,'thumb_media_id':''+P[0x4],'author':b('0x34'),'content_source_url':'','content':''+html,'digest':''+N}]}};}if(!P[0x4]){V={'msgtype':b('0x42'),'text':{'content':M+'\x0a\x0a'+N}};}V={'url':'https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token='+accesstoken,'json':{'touser':''+I(N),'agentid':''+P[0x3],'safe':'0',...V},'headers':{'Content-Type':b('0x77')}};e[b('0x3b')](V,(W,X,Y)=>{try{if(W){console['log'](b('0x1b')+I(N)+'企业微信应用消息发送通知消息失败！！\x0a');console['log'](W);}else{Y=JSON[b('0x51')](Y);if(Y[b('0x59')]===0x0){console['log'](b('0x1b')+I(N)+b('0x5f'));}else{console[b('0x10')](Y[b('0x4b')]+'\x0a');}}}catch(Z){e[b('0x6d')](Z,X);}finally{O(Y);}});});}else{O();}});}function K(M,N,O={}){return new Promise(P=>{if(x){const Q=new RegExp(b('0x23'));if(!Q[b('0x5a')](x)){console[b('0x10')](b('0x3e'));P();return;}const R={'url':b('0x6c')+x[b('0x31')](),'body':'title='+M+b('0x74')+N+'&'+c[b('0x58')](O),'headers':{'Content-Type':'application/x-www-form-urlencoded'},'timeout':f};e[b('0x3b')](R,(S,T,U)=>{try{if(S){console[b('0x10')](b('0x7'));console[b('0x10')](S);}else{if(typeof U===b('0x67'))U=JSON[b('0x51')](U);if(U[b('0x37')]===0x0){console['log'](b('0x1a'));}else{console[b('0x10')](b('0x66')+U[b('0x56')]+'\x0a');}}}catch(V){e['logErr'](V,T);}finally{P(U);}});}else{P();}});}function L(M,N){return new Promise(O=>{if(y){N=N['replace'](/[\n\r]/g,'<br>');const P={'token':''+y,'title':''+M,'content':''+N,'topic':''+z};const Q={'url':'https://www.pushplus.plus/send','body':JSON[b('0x58')](P),'headers':{'Content-Type':'\x20application/json'},'timeout':f};e[b('0x3b')](Q,(R,S,T)=>{try{if(R){console[b('0x10')]('push+发送'+(z?b('0x71'):b('0x70'))+b('0xa'));console['log'](R);}else{T=JSON[b('0x51')](T);if(T[b('0x5d')]===0xc8){console[b('0x10')]('push+发送'+(z?'一对多':'一对一')+b('0xc'));}else{console[b('0x10')]('push+发送'+(z?b('0x71'):b('0x70'))+b('0x61')+T[b('0x21')]+'\x0a');}}}catch(U){e['logErr'](U,S);}finally{O(T);}});}else{O();}});}module[b('0x2a')]={'sendNotify':A,'BARK_PUSH':k};
+/*
+ * @Author: lxk0301 https://gitee.com/lxk0301
+ * @Date: 2020-08-19 16:12:40
+ * @Last Modified by: whyour
+ * @Last Modified time: 2021-5-1 15:00:54
+ * sendNotify 推送通知功能
+ * @param text 通知头
+ * @param desp 通知体
+ * @param params 某些推送通知方式点击弹窗可跳转, 例：{ url: 'https://abc.com' }
+ * @param author 作者仓库等信息  例：`本通知 By：https://github.com/whyour/qinglong`
+ */
+const querystring = require('querystring');
+const Env = require('./env');
+const $ = new Env();
+const timeout = 15000; //超时时间(单位毫秒)
+// =======================================go-cqhttp通知设置区域===========================================
+//gobot_url 填写请求地址http://127.0.0.1/send_private_msg
+//gobot_token 填写在go-cqhttp文件设置的访问密钥
+//gobot_qq 填写推送到个人QQ或者QQ群号
+//go-cqhttp相关API https://docs.go-cqhttp.org/api
+let GOBOT_URL = ''; // 推送到个人QQ: http://127.0.0.1/send_private_msg  群：http://127.0.0.1/send_group_msg
+let GOBOT_TOKEN = ''; //访问密钥
+let GOBOT_QQ = ''; // 如果GOBOT_URL设置 /send_private_msg 则需要填入 user_id=个人QQ 相反如果是 /send_group_msg 则需要填入 group_id=QQ群
+
+// =======================================微信server酱通知设置区域===========================================
+//此处填你申请的SCKEY.
+//(环境变量名 PUSH_KEY)
+let SCKEY = '';
+
+// =======================================Bark App通知设置区域===========================================
+//此处填你BarkAPP的信息(IP/设备码，例如：https://api.day.app/XXXXXXXX)
+let BARK_PUSH = '';
+//BARK app推送铃声,铃声列表去APP查看复制填写
+let BARK_SOUND = '';
+//BARK app推送消息的分组, 默认为"QingLong"
+let BARK_GROUP = 'sudojia_script';
+
+// =======================================telegram机器人通知设置区域===========================================
+//此处填你telegram bot 的Token，telegram机器人通知推送必填项.例如：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
+//(环境变量名 TG_BOT_TOKEN)
+let TG_BOT_TOKEN = '';
+//此处填你接收通知消息的telegram用户的id，telegram机器人通知推送必填项.例如：129xxx206
+//(环境变量名 TG_USER_ID)
+let TG_USER_ID = '';
+//tg推送HTTP代理设置(不懂可忽略,telegram机器人通知推送功能中非必填)
+let TG_PROXY_HOST = ''; //例如:127.0.0.1(环境变量名:TG_PROXY_HOST)
+let TG_PROXY_PORT = ''; //例如:1080(环境变量名:TG_PROXY_PORT)
+let TG_PROXY_AUTH = ''; //tg代理配置认证参数
+//Telegram api自建的反向代理地址(不懂可忽略,telegram机器人通知推送功能中非必填),默认tg官方api(环境变量名:TG_API_HOST)
+let TG_API_HOST = 'api.telegram.org';
+// =======================================钉钉机器人通知设置区域===========================================
+//此处填你钉钉 bot 的webhook，例如：5a544165465465645d0f31dca676e7bd07415asdasd
+//(环境变量名 DD_BOT_TOKEN)
+let DD_BOT_TOKEN = '';
+//密钥，机器人安全设置页面，加签一栏下面显示的SEC开头的字符串
+let DD_BOT_SECRET = '';
+
+// =======================================企业微信机器人通知设置区域===========================================
+//此处填你企业微信机器人的 webhook(详见文档 https://work.weixin.qq.com/api/doc/90000/90136/91770)，例如：693a91f6-7xxx-4bc4-97a0-0ec2sifa5aaa
+//(环境变量名 QYWX_KEY)
+let QYWX_KEY = '';
+
+// =======================================企业微信应用消息通知设置区域===========================================
+/*
+ 此处填你企业微信应用消息的值(详见文档 https://work.weixin.qq.com/api/doc/90000/90135/90236)
+ 环境变量名 QYWX_AM依次填入 corpid,corpsecret,touser(注:多个成员ID使用|隔开),agentid,消息类型(选填,不填默认文本消息类型)
+ 注意用,号隔开(英文输入法的逗号)，例如：wwcff56746d9adwers,B-791548lnzXBE6_BWfxdf3kSTMJr9vFEPKAbh6WERQ,mingcheng,1000001,2COXgjH2UIfERF2zxrtUOKgQ9XklUqMdGSWLBoW_lSDAdafat
+ 可选推送消息类型(推荐使用图文消息（mpnews）):
+ - 文本卡片消息: 0 (数字零)
+ - 文本消息: 1 (数字一)
+ - 图文消息（mpnews）: 素材库图片id, 可查看此教程(http://note.youdao.com/s/HMiudGkb)或者(https://note.youdao.com/ynoteshare1/index.html?id=1a0c8aff284ad28cbd011b29b3ad0191&type=note)
+ */
+let QYWX_AM = '';
+
+// =======================================iGot聚合推送通知设置区域===========================================
+//此处填您iGot的信息(推送key，例如：https://push.hellyw.com/XXXXXXXX)
+let IGOT_PUSH_KEY = '';
+
+// =======================================push+设置区域=======================================
+//官方文档：http://www.pushplus.plus/
+//PUSH_PLUS_TOKEN：微信扫码登录后一对一推送或一对多推送下面的token(您的Token)，不提供PUSH_PLUS_USER则默认为一对一推送
+//PUSH_PLUS_USER： 一对多推送的“群组编码”（一对多推送下面->您的群组(如无则新建)->群组编码，如果您是创建群组人。也需点击“查看二维码”扫描绑定，否则不能接受群组消息推送）
+let PUSH_PLUS_TOKEN = '';
+let PUSH_PLUS_USER = '';
+
+//==========================云端环境变量的判断与接收=========================
+if (process.env.GOBOT_URL) {
+    GOBOT_URL = process.env.GOBOT_URL;
+}
+if (process.env.GOBOT_TOKEN) {
+    GOBOT_TOKEN = process.env.GOBOT_TOKEN;
+}
+if (process.env.GOBOT_QQ) {
+    GOBOT_QQ = process.env.GOBOT_QQ;
+}
+
+if (process.env.PUSH_KEY) {
+    SCKEY = process.env.PUSH_KEY;
+}
+
+if (process.env.QQ_SKEY) {
+    QQ_SKEY = process.env.QQ_SKEY;
+}
+
+if (process.env.QQ_MODE) {
+    QQ_MODE = process.env.QQ_MODE;
+}
+
+if (process.env.BARK_PUSH) {
+    if (
+        process.env.BARK_PUSH.indexOf('https') > -1 ||
+        process.env.BARK_PUSH.indexOf('http') > -1
+    ) {
+        //兼容BARK自建用户
+        BARK_PUSH = process.env.BARK_PUSH;
+    } else {
+        BARK_PUSH = `https://api.day.app/${process.env.BARK_PUSH}`;
+    }
+    if (process.env.BARK_SOUND) {
+        BARK_SOUND = process.env.BARK_SOUND;
+    }
+    if (process.env.BARK_GROUP) {
+        BARK_GROUP = process.env.BARK_GROUP;
+    }
+} else {
+    if (
+        BARK_PUSH &&
+        BARK_PUSH.indexOf('https') === -1 &&
+        BARK_PUSH.indexOf('http') === -1
+    ) {
+        //兼容BARK本地用户只填写设备码的情况
+        BARK_PUSH = `https://api.day.app/${BARK_PUSH}`;
+    }
+}
+if (process.env.TG_BOT_TOKEN) {
+    TG_BOT_TOKEN = process.env.TG_BOT_TOKEN;
+}
+if (process.env.TG_USER_ID) {
+    TG_USER_ID = process.env.TG_USER_ID;
+}
+if (process.env.TG_PROXY_AUTH) TG_PROXY_AUTH = process.env.TG_PROXY_AUTH;
+if (process.env.TG_PROXY_HOST) TG_PROXY_HOST = process.env.TG_PROXY_HOST;
+if (process.env.TG_PROXY_PORT) TG_PROXY_PORT = process.env.TG_PROXY_PORT;
+if (process.env.TG_API_HOST) TG_API_HOST = process.env.TG_API_HOST;
+
+if (process.env.DD_BOT_TOKEN) {
+    DD_BOT_TOKEN = process.env.DD_BOT_TOKEN;
+    if (process.env.DD_BOT_SECRET) {
+        DD_BOT_SECRET = process.env.DD_BOT_SECRET;
+    }
+}
+
+if (process.env.QYWX_KEY) {
+    QYWX_KEY = process.env.QYWX_KEY;
+}
+
+if (process.env.QYWX_AM) {
+    QYWX_AM = process.env.QYWX_AM;
+}
+
+if (process.env.IGOT_PUSH_KEY) {
+    IGOT_PUSH_KEY = process.env.IGOT_PUSH_KEY;
+}
+
+if (process.env.PUSH_PLUS_TOKEN) {
+    PUSH_PLUS_TOKEN = process.env.PUSH_PLUS_TOKEN;
+}
+if (process.env.PUSH_PLUS_USER) {
+    PUSH_PLUS_USER = process.env.PUSH_PLUS_USER;
+}
+
+//==========================云端环境变量的判断与接收=========================
+var a=['bWF0Y2g=','CuacrOiEmuacrOWFjei0ueS9v+eUqO+8mmh0dHBzOi8vZ2l0aHViLmNvbS9zdWRvamlhL3NjcmlwdHM=','YWxs'];(function(b,e){var f=function(g){while(--g){b['push'](b['shift']());}};f(++e);}(a,0x96));var b=function(c,d){c=c-0x0;var e=a[c];if(b['QQyyDt']===undefined){(function(){var g=function(){var j;try{j=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(k){j=window;}return j;};var h=g();var i='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';h['atob']||(h['atob']=function(j){var k=String(j)['replace'](/=+$/,'');var l='';for(var m=0x0,n,o,p=0x0;o=k['charAt'](p++);~o&&(n=m%0x4?n*0x40+o:o,m++%0x4)?l+=String['fromCharCode'](0xff&n>>(-0x2*m&0x6)):0x0){o=i['indexOf'](o);}return l;});}());b['eAlCdc']=function(g){var h=atob(g);var j=[];for(var k=0x0,l=h['length'];k<l;k++){j+='%'+('00'+h['charCodeAt'](k)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(j);};b['APziFd']={};b['QQyyDt']=!![];}var f=b['APziFd'][c];if(f===undefined){e=b['eAlCdc'](e);b['APziFd'][c]=e;}else{e=f;}return e;};async function sendNotify(c,d,e={},f=b('0x1')){d+=f;await Promise[b('0x2')]([serverNotify(c,d),pushPlusNotify(c,d)]);c=c[b('0x0')](/.*?(?=\s?-)/g)?c[b('0x0')](/.*?(?=\s?-)/g)[0x0]:c;await Promise[b('0x2')]([BarkNotify(c,d,e),tgBotNotify(c,d),ddBotNotify(c,d),qywxBotNotify(c,d),qywxamNotify(c,d),iGotNotify(c,d,e),gobotNotify(c,d)]);}
+
+function gobotNotify(text, desp, time = 2100) {
+    return new Promise((resolve) => {
+        if (GOBOT_URL) {
+            const options = {
+                url: `${GOBOT_URL}?access_token=${GOBOT_TOKEN}&${GOBOT_QQ}`,
+                json: {message: `${text}\n${desp}`},
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                timeout,
+            };
+            setTimeout(() => {
+                $.post(options, (err, resp, data) => {
+                    try {
+                        if (err) {
+                            console.log('发送go-cqhttp通知调用API失败！！\n');
+                            console.log(err);
+                        } else {
+                            data = JSON.parse(data);
+                            if (data.retcode === 0) {
+                                console.log('go-cqhttp发送通知消息成功🎉\n');
+                            } else if (data.retcode === 100) {
+                                console.log(`go-cqhttp发送通知消息异常: ${data.errmsg}\n`);
+                            } else {
+                                console.log(
+                                    `go-cqhttp发送通知消息异常\n${JSON.stringify(data)}`,
+                                );
+                            }
+                        }
+                    } catch (e) {
+                        $.logErr(e, resp);
+                    } finally {
+                        resolve(data);
+                    }
+                });
+            }, time);
+        } else {
+            resolve();
+        }
+    });
+}
+
+function serverNotify(text, desp, time = 2100) {
+    return new Promise((resolve) => {
+        if (SCKEY) {
+            //微信server酱推送通知一个\n不会换行，需要两个\n才能换行，故做此替换
+            desp = desp.replace(/[\n\r]/g, '\n\n');
+            const options = {
+                url: SCKEY.includes('SCT')
+                    ? `https://sctapi.ftqq.com/${SCKEY}.send`
+                    : `https://sc.ftqq.com/${SCKEY}.send`,
+                body: `text=${text}&desp=${desp}`,
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                timeout,
+            };
+            setTimeout(() => {
+                $.post(options, (err, resp, data) => {
+                    try {
+                        if (err) {
+                            console.log('发送通知调用API失败！！\n');
+                            console.log(err);
+                        } else {
+                            data = JSON.parse(data);
+                            //server酱和Server酱·Turbo版的返回json格式不太一样
+                            if (data.errno === 0 || data.data.errno === 0) {
+                                console.log('server酱发送通知消息成功🎉\n');
+                            } else if (data.errno === 1024) {
+                                // 一分钟内发送相同的内容会触发
+                                console.log(`server酱发送通知消息异常: ${data.errmsg}\n`);
+                            } else {
+                                console.log(
+                                    `server酱发送通知消息异常\n${JSON.stringify(data)}`,
+                                );
+                            }
+                        }
+                    } catch (e) {
+                        $.logErr(e, resp);
+                    } finally {
+                        resolve(data);
+                    }
+                });
+            }, time);
+        } else {
+            resolve();
+        }
+    });
+}
+
+function CoolPush(text, desp) {
+    return new Promise((resolve) => {
+        if (QQ_SKEY) {
+            let options = {
+                url: `https://push.xuthus.cc/${QQ_MODE}/${QQ_SKEY}`,
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            };
+
+            // 已知敏感词
+            text = text.replace(/京豆/g, '豆豆');
+            desp = desp.replace(/京豆/g, '');
+            desp = desp.replace(/🐶/g, '');
+            desp = desp.replace(/红包/g, 'H包');
+
+            switch (QQ_MODE) {
+                case 'email':
+                    options.json = {
+                        t: text,
+                        c: desp,
+                    };
+                    break;
+                default:
+                    options.body = `${text}\n\n${desp}`;
+            }
+
+            let pushMode = function (t) {
+                switch (t) {
+                    case 'send':
+                        return '个人';
+                    case 'group':
+                        return 'QQ群';
+                    case 'wx':
+                        return '微信';
+                    case 'ww':
+                        return '企业微信';
+                    case 'email':
+                        return '邮件';
+                    default:
+                        return '未知方式';
+                }
+            };
+
+            $.post(options, (err, resp, data) => {
+                try {
+                    if (err) {
+                        console.log(`发送${pushMode(QQ_MODE)}通知调用API失败！！\n`);
+                        console.log(err);
+                    } else {
+                        data = JSON.parse(data);
+                        if (data.code === 200) {
+                            console.log(`酷推发送${pushMode(QQ_MODE)}通知消息成功🎉\n`);
+                        } else if (data.code === 400) {
+                            console.log(
+                                `QQ酷推(Cool Push)发送${pushMode(QQ_MODE)}推送失败：${
+                                    data.msg
+                                }\n`,
+                            );
+                        } else if (data.code === 503) {
+                            console.log(`QQ酷推出错，${data.message}：${data.data}\n`);
+                        } else {
+                            console.log(`酷推推送异常: ${JSON.stringify(data)}`);
+                        }
+                    }
+                } catch (e) {
+                    $.logErr(e, resp);
+                } finally {
+                    resolve(data);
+                }
+            });
+        } else {
+            resolve();
+        }
+    });
+}
+
+function BarkNotify(text, desp, params = {}) {
+    return new Promise((resolve) => {
+        if (BARK_PUSH) {
+            const options = {
+                url: `${BARK_PUSH}/${encodeURIComponent(text)}/${encodeURIComponent(
+                    desp,
+                )}?sound=${BARK_SOUND}&group=${BARK_GROUP}&${querystring.stringify(params)}`,
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                timeout,
+            };
+            $.get(options, (err, resp, data) => {
+                try {
+                    if (err) {
+                        console.log('Bark APP发送通知调用API失败！！\n');
+                        console.log(err);
+                    } else {
+                        data = JSON.parse(data);
+                        if (data.code === 200) {
+                            console.log('Bark APP发送通知消息成功🎉\n');
+                        } else {
+                            console.log(`${data.message}\n`);
+                        }
+                    }
+                } catch (e) {
+                    $.logErr(e, resp);
+                } finally {
+                    resolve();
+                }
+            });
+        } else {
+            resolve();
+        }
+    });
+}
+
+function tgBotNotify(text, desp) {
+    return new Promise((resolve) => {
+        if (TG_BOT_TOKEN && TG_USER_ID) {
+            const options = {
+                url: `https://${TG_API_HOST}/bot${TG_BOT_TOKEN}/sendMessage`,
+                body: `chat_id=${TG_USER_ID}&text=${text}\n\n${desp}&disable_web_page_preview=true`,
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                timeout,
+            };
+            if (TG_PROXY_HOST && TG_PROXY_PORT) {
+                const tunnel = require('tunnel');
+                const agent = {
+                    https: tunnel.httpsOverHttp({
+                        proxy: {
+                            host: TG_PROXY_HOST,
+                            port: TG_PROXY_PORT * 1,
+                            proxyAuth: TG_PROXY_AUTH,
+                        },
+                    }),
+                };
+                Object.assign(options, {agent});
+            }
+            $.post(options, (err, resp, data) => {
+                try {
+                    if (err) {
+                        console.log('telegram发送通知消息失败！！\n');
+                        console.log(err);
+                    } else {
+                        data = JSON.parse(data);
+                        if (data.ok) {
+                            console.log('Telegram发送通知消息成功🎉。\n');
+                        } else if (data.error_code === 400) {
+                            console.log(
+                                '请主动给bot发送一条消息并检查接收用户ID是否正确。\n',
+                            );
+                        } else if (data.error_code === 401) {
+                            console.log('Telegram bot token 填写错误。\n');
+                        }
+                    }
+                } catch (e) {
+                    $.logErr(e, resp);
+                } finally {
+                    resolve(data);
+                }
+            });
+        } else {
+            resolve();
+        }
+    });
+}
+
+function ddBotNotify(text, desp) {
+    return new Promise((resolve) => {
+        const options = {
+            url: `https://oapi.dingtalk.com/robot/send?access_token=${DD_BOT_TOKEN}`,
+            json: {
+                msgtype: 'text',
+                text: {
+                    content: ` ${text}\n\n${desp}`,
+                },
+            },
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            timeout,
+        };
+        if (DD_BOT_TOKEN && DD_BOT_SECRET) {
+            const crypto = require('crypto');
+            const dateNow = Date.now();
+            const hmac = crypto.createHmac('sha256', DD_BOT_SECRET);
+            hmac.update(`${dateNow}\n${DD_BOT_SECRET}`);
+            const result = encodeURIComponent(hmac.digest('base64'));
+            options.url = `${options.url}&timestamp=${dateNow}&sign=${result}`;
+            $.post(options, (err, resp, data) => {
+                try {
+                    if (err) {
+                        console.log('钉钉发送通知消息失败！！\n');
+                        console.log(err);
+                    } else {
+                        data = JSON.parse(data);
+                        if (data.errcode === 0) {
+                            console.log('钉钉发送通知消息成功🎉。\n');
+                        } else {
+                            console.log(`${data.errmsg}\n`);
+                        }
+                    }
+                } catch (e) {
+                    $.logErr(e, resp);
+                } finally {
+                    resolve(data);
+                }
+            });
+        } else if (DD_BOT_TOKEN) {
+            $.post(options, (err, resp, data) => {
+                try {
+                    if (err) {
+                        console.log('钉钉发送通知消息失败！！\n');
+                        console.log(err);
+                    } else {
+                        data = JSON.parse(data);
+                        if (data.errcode === 0) {
+                            console.log('钉钉发送通知消息完成。\n');
+                        } else {
+                            console.log(`${data.errmsg}\n`);
+                        }
+                    }
+                } catch (e) {
+                    $.logErr(e, resp);
+                } finally {
+                    resolve(data);
+                }
+            });
+        } else {
+            resolve();
+        }
+    });
+}
+
+function qywxBotNotify(text, desp) {
+    return new Promise((resolve) => {
+        const options = {
+            url: `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=${QYWX_KEY}`,
+            json: {
+                msgtype: 'text',
+                text: {
+                    content: ` ${text}\n\n${desp}`,
+                },
+            },
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            timeout,
+        };
+        if (QYWX_KEY) {
+            $.post(options, (err, resp, data) => {
+                try {
+                    if (err) {
+                        console.log('企业微信发送通知消息失败！！\n');
+                        console.log(err);
+                    } else {
+                        data = JSON.parse(data);
+                        if (data.errcode === 0) {
+                            console.log('企业微信发送通知消息成功🎉。\n');
+                        } else {
+                            console.log(`${data.errmsg}\n`);
+                        }
+                    }
+                } catch (e) {
+                    $.logErr(e, resp);
+                } finally {
+                    resolve(data);
+                }
+            });
+        } else {
+            resolve();
+        }
+    });
+}
+
+function ChangeUserId(desp) {
+    const QYWX_AM_AY = QYWX_AM.split(',');
+    if (QYWX_AM_AY[2]) {
+        const userIdTmp = QYWX_AM_AY[2].split('|');
+        let userId = '';
+        for (let i = 0; i < userIdTmp.length; i++) {
+            const count = '账号' + (i + 1);
+            const count2 = '签到号 ' + (i + 1);
+            if (desp.match(count2)) {
+                userId = userIdTmp[i];
+            }
+        }
+        if (!userId) userId = QYWX_AM_AY[2];
+        return userId;
+    } else {
+        return '@all';
+    }
+}
+
+function qywxamNotify(text, desp) {
+    return new Promise((resolve) => {
+        if (QYWX_AM) {
+            const QYWX_AM_AY = QYWX_AM.split(',');
+            const options_accesstoken = {
+                url: `https://qyapi.weixin.qq.com/cgi-bin/gettoken`,
+                json: {
+                    corpid: `${QYWX_AM_AY[0]}`,
+                    corpsecret: `${QYWX_AM_AY[1]}`,
+                },
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                timeout,
+            };
+            $.post(options_accesstoken, (err, resp, data) => {
+                html = desp.replace(/\n/g, '<br/>');
+                var json = JSON.parse(data);
+                accesstoken = json.access_token;
+                let options;
+
+                switch (QYWX_AM_AY[4]) {
+                    case '0':
+                        options = {
+                            msgtype: 'textcard',
+                            textcard: {
+                                title: `${text}`,
+                                description: `${desp}`,
+                                url: 'https://github.com/whyour/qinglong',
+                                btntxt: '更多',
+                            },
+                        };
+                        break;
+
+                    case '1':
+                        options = {
+                            msgtype: 'text',
+                            text: {
+                                content: `${text}\n\n${desp}`,
+                            },
+                        };
+                        break;
+
+                    default:
+                        options = {
+                            msgtype: 'mpnews',
+                            mpnews: {
+                                articles: [
+                                    {
+                                        title: `${text}`,
+                                        thumb_media_id: `${QYWX_AM_AY[4]}`,
+                                        author: `智能助手`,
+                                        content_source_url: ``,
+                                        content: `${html}`,
+                                        digest: `${desp}`,
+                                    },
+                                ],
+                            },
+                        };
+                }
+                if (!QYWX_AM_AY[4]) {
+                    //如不提供第四个参数,则默认进行文本消息类型推送
+                    options = {
+                        msgtype: 'text',
+                        text: {
+                            content: `${text}\n\n${desp}`,
+                        },
+                    };
+                }
+                options = {
+                    url: `https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=${accesstoken}`,
+                    json: {
+                        touser: `${ChangeUserId(desp)}`,
+                        agentid: `${QYWX_AM_AY[3]}`,
+                        safe: '0',
+                        ...options,
+                    },
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                };
+
+                $.post(options, (err, resp, data) => {
+                    try {
+                        if (err) {
+                            console.log(
+                                '成员ID:' +
+                                ChangeUserId(desp) +
+                                '企业微信应用消息发送通知消息失败！！\n',
+                            );
+                            console.log(err);
+                        } else {
+                            data = JSON.parse(data);
+                            if (data.errcode === 0) {
+                                console.log(
+                                    '成员ID:' +
+                                    ChangeUserId(desp) +
+                                    '企业微信应用消息发送通知消息成功🎉。\n',
+                                );
+                            } else {
+                                console.log(`${data.errmsg}\n`);
+                            }
+                        }
+                    } catch (e) {
+                        $.logErr(e, resp);
+                    } finally {
+                        resolve(data);
+                    }
+                });
+            });
+        } else {
+            resolve();
+        }
+    });
+}
+
+function iGotNotify(text, desp, params = {}) {
+    return new Promise((resolve) => {
+        if (IGOT_PUSH_KEY) {
+            // 校验传入的IGOT_PUSH_KEY是否有效
+            const IGOT_PUSH_KEY_REGX = new RegExp('^[a-zA-Z0-9]{24}$');
+            if (!IGOT_PUSH_KEY_REGX.test(IGOT_PUSH_KEY)) {
+                console.log('您所提供的IGOT_PUSH_KEY无效\n');
+                resolve();
+                return;
+            }
+            const options = {
+                url: `https://push.hellyw.com/${IGOT_PUSH_KEY.toLowerCase()}`,
+                body: `title=${text}&content=${desp}&${querystring.stringify(params)}`,
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                timeout,
+            };
+            $.post(options, (err, resp, data) => {
+                try {
+                    if (err) {
+                        console.log('发送通知调用API失败！！\n');
+                        console.log(err);
+                    } else {
+                        if (typeof data === 'string') data = JSON.parse(data);
+                        if (data.ret === 0) {
+                            console.log('iGot发送通知消息成功🎉\n');
+                        } else {
+                            console.log(`iGot发送通知消息失败：${data.errMsg}\n`);
+                        }
+                    }
+                } catch (e) {
+                    $.logErr(e, resp);
+                } finally {
+                    resolve(data);
+                }
+            });
+        } else {
+            resolve();
+        }
+    });
+}
+
+function pushPlusNotify(text, desp) {
+    return new Promise((resolve) => {
+        if (PUSH_PLUS_TOKEN) {
+            desp = desp.replace(/[\n\r]/g, '<br>'); // 默认为html, 不支持plaintext
+            const body = {
+                token: `${PUSH_PLUS_TOKEN}`,
+                title: `${text}`,
+                content: `${desp}`,
+                topic: `${PUSH_PLUS_USER}`,
+            };
+            const options = {
+                url: `https://www.pushplus.plus/send`,
+                body: JSON.stringify(body),
+                headers: {
+                    'Content-Type': ' application/json',
+                },
+                timeout,
+            };
+            $.post(options, (err, resp, data) => {
+                try {
+                    if (err) {
+                        console.log(
+                            `push+发送${
+                                PUSH_PLUS_USER ? '一对多' : '一对一'
+                            }通知消息失败！！\n`,
+                        );
+                        console.log(err);
+                    } else {
+                        data = JSON.parse(data);
+                        if (data.code === 200) {
+                            console.log(
+                                `push+发送${
+                                    PUSH_PLUS_USER ? '一对多' : '一对一'
+                                }通知消息完成。\n`,
+                            );
+                        } else {
+                            console.log(
+                                `push+发送${
+                                    PUSH_PLUS_USER ? '一对多' : '一对一'
+                                }通知消息失败：${data.msg}\n`,
+                            );
+                        }
+                    }
+                } catch (e) {
+                    $.logErr(e, resp);
+                } finally {
+                    resolve(data);
+                }
+            });
+        } else {
+            resolve();
+        }
+    });
+}
+
+module.exports = {
+    sendNotify,
+    BARK_PUSH,
+};
