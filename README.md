@@ -62,7 +62,7 @@
 
 为了防止违反这些限制和滥用 GitHub Actions，GitHub 可能会监控您对 GitHub Actions 的使用。滥用 GitHub Actions 可能会导致工作终止、限制您使用 GitHub Actions 的能力、禁用为以违反这些条款的方式运行 Actions 而创建的存储库，或者在某些情况下暂停或终止您的 GitHub 帐户
 
-附上：[关于 GitHub Actions 使用条款](https://docs.github.com/github/site-policy/github-terms-for-additional-products-and-features#actions)
+附上：[【关于 GitHub Actions 使用条款】](https://docs.github.com/github/site-policy/github-terms-for-additional-products-and-features#actions)
 
 如若真没服务器，又想白嫖
 
