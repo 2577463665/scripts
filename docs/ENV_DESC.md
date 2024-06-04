@@ -9,18 +9,6 @@
   - [智能电视](#智能电视)
   - [消息推送变量（可选）](#消息推送变量可选)
 
-## 环境变量说明
-
-1. **针对 GitHub Actions 运行方式**
-
-   在 `fork` 的仓库点击 `Settings - Secrets - New repository secret` 进行添加变量，建议开启自己需要跑脚本的 Actions，不要全部开启，避免触碰机制，导致封号，[【关于 GitHub Actions 使用条款】](https://docs.github.com/github/site-policy/github-terms-for-additional-products-and-features#actions)
-
-   更推荐使用青龙面板的方式运行脚本
-
-2. **针对青龙面板**
-
-   直接在环境变量创建变量即可
-
 ### 掘金社区
 
 |      Name       |         Value         |                             说明                             |
