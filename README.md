@@ -58,6 +58,7 @@
    tough-cookie
    tunnel
    ws
+   got
    ```
 
 **GitHub Actions（不推荐）**
