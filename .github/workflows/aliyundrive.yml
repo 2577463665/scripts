@@ -1,4 +1,4 @@
-name: AliYunDrive
+name: aliyundrive
 
 on:
   workflow_dispatch:
@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+
+      - name: Use Node.js 12
+        uses: actions/setup-node@v1
         with:
-          node-version: 18
+          node-version: "12.x"
 
       - name: Caching dependency packages
         uses: actions/cache@v2.1.1
@@ -23,6 +25,7 @@ jobs:
 
       - name: Install dependency packages
         run: |
+          npm cache clean --force
           npm install
 
       - name: Run
