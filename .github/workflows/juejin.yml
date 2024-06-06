@@ -9,7 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github
 
       - name: Use Node.js 12
         uses: actions/setup-node@v1
