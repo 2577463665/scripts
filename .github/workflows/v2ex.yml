@@ -3,7 +3,7 @@ name: v2ex
 on:
   workflow_dispatch:
   schedule:
-    - cron: "12 1 * * *"
+    - cron: "35 0 * * *"
 
 jobs:
   build:

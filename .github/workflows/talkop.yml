@@ -3,7 +3,7 @@ name: talkop
 on:
   workflow_dispatch:
   schedule:
-    - cron: "12 1 * * *"
+    - cron: "26 3 * * *"
 
 jobs:
   build:

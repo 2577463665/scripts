@@ -3,7 +3,7 @@ name: aliyundrive
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 2 * * *"
+    - cron: "11 5 * * *"
 
 jobs:
   build:

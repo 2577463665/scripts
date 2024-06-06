@@ -3,7 +3,7 @@ name: znds
 on:
   workflow_dispatch:
   schedule:
-    - cron: "12 1 * * *"
+    - cron: "12 3 * * *"
 
 jobs:
   build:
