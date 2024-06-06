@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Use Node.js 12
         uses: actions/setup-node@v1
@@ -21,7 +21,7 @@ jobs:
         id: cache-dependencies
         with:
           path: node_modules
-          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+          key: ${{ runner.OS }}-${{ hashFiles('**/package-lock.json') }}
 
       - name: Install dependency packages
         run: |
