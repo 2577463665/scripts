@@ -8,28 +8,28 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [ '12.x', '14.x', '16.x', '18.x' ]
-
     steps:
-      - name: Delete node_modules
-        run: rm -rf node_modules
-
       - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 14
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          node-version: '14.x'
+
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        id: cache-node-modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ matrix.node-version }}-nodeModules-${{ hashFiles('package-lock.json') }}-${{ hashFiles('package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ matrix.node-version }}-nodeModules-
 
       - name: Install dependency packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: |
-          npm cache clean --force
           npm install
 
-      - name: Run
+      - name: Start running the script
         run: |
           node sudojia_aliyundrive.js
         env:
