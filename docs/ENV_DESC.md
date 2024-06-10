@@ -7,6 +7,7 @@
   - [V2EX](#v2ex)
   - [海贼王论坛](#海贼王论坛)
   - [智能电视](#智能电视)
+  - [库街区](#库街区)
   - [消息推送变量（可选）](#消息推送变量可选)
 
 ### 掘金社区
@@ -15,7 +16,7 @@
 | :-------------: | :-------------------: | :----------------------------------------------------------: |
 | `JUEJIN_COOKIE` | `xxxxxxxxxxxxxxxxxxx` | 掘金 Cookie，打开[掘金社区](https://juejin.cn/) F12，选择 Application，点击 Cookies 只要 `sessionid` 的值并填入 Secrets 即可，多个掘金号用 `&` 隔开 `xxxxxxxx&xxxxxxxx` |
 
-![images](https://img2.imgtp.com/2024/05/19/M3EbSqId.png)
+<img src="https://img.gugu.ovh/i/2024/06/10/173932.webp" alt="juejin" style="zoom:67%;" />
 
 ### SSPANEL面板
 
@@ -56,7 +57,7 @@ JSON.parse(localStorage.token).refresh_token
 | :-------------: | :---------------------------------: | :----------------------------------------------------------: |
 | `TIE_BA_COOKIE` | eg: `xxxxxxxxxxxxxxxxxxxxxxxxxxxxx` | 打开[百度贴吧](https://tieba.baidu.com/) -> F12，选择 Application，点击 Cookies<br/>只要 `BDUSS` 的值即可<br>多个账号用 `&` 分开 |
 
-![images](https://img2.imgtp.com/2024/05/19/HnlsgpaF.png)
+<img src="https://img.gugu.ovh/i/2024/06/10/174000.webp" alt="tieba" style="zoom: 67%;" />
 
 ### 司机社
 
@@ -88,7 +89,7 @@ https://xxxxx.com@SgL6_2132_auth=xxxxxxxxxxx;SgL6_2132_saltkey=xxxxxx&https://xx
 | :-----------: | :----: | :----------------------------------------------------------: |
 | `V2EX_COOKIE` | Cookie | F12，选择 Network 网络，然后请求选择 `Doc`，把 Cookie 全选复制<br>没有出现 `v2ex.com` 那就 F5 刷新一下 |
 
-![v2ex](https://img2.imgtp.com/2024/05/22/Ce612EwM.png)
+<img src="https://img.gugu.ovh/i/2024/06/10/174112.webp" alt="v2ex" style="zoom: 67%;" />
 
 ### 海贼王论坛
 
@@ -107,6 +108,12 @@ https://xxxxx.com@SgL6_2132_auth=xxxxxxxxxxx;SgL6_2132_saltkey=xxxxxx&https://xx
 |      Name       |   Value    |                             说明                             |
 | :-------------: | :--------: | :----------------------------------------------------------: |
 | `KUROAPP_TOKEN` | `xxxxxxxx` | 打开 APP 登录，抓包 Host：`https://api.kurobbs.com` <br>随便哪个请求，找到请求头 **token**<br>多个账号用 `&` 隔开 |
+
+PC 端 Token 获取：
+
+- 浏览器打开[库街区](https://www.kurobbs.com/mc/home/9)，登录之后，`F12 -> Application -> 左侧 Local storage -> 找到 auth_token 复制其 Value`
+
+<img src="https://img.gugu.ovh/i/2024/06/10/173834.webp" alt="kuro_get_token" style="zoom: 50%;" />
 
 ### 消息推送变量（可选）
 
