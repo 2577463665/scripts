@@ -102,6 +102,12 @@ https://xxxxx.com@SgL6_2132_auth=xxxxxxxxxxx;SgL6_2132_saltkey=xxxxxx&https://xx
 | :-----------: | :----------------------------------------: | :----------------------------------------------------------: |
 | `ZNDS_COOKIE` | `s9it_2132_auth=xxx;s9it_2132_saltkey=xxx` | 打开司机社网站，F12，选择 Application，点击 Cookies 获取键值对：`s9it_2132_auth=xxx;s9it_2132_saltkey=xxx` |
 
+### 库街区
+
+|      Name       |   Value    |                             说明                             |
+| :-------------: | :--------: | :----------------------------------------------------------: |
+| `KUROAPP_TOKEN` | `xxxxxxxx` | 打开 APP 登录，抓包 Host：`https://api.kurobbs.com` <br>随便哪个请求，找到请求头 **token**<br>多个账号用 `&` 隔开 |
+
 ### 消息推送变量（可选）
 
 如果你想要程序执行后进行消息推送，那么任选一种或多种方式进行配置
