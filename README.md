@@ -1,4 +1,20 @@
-![scripts](https://socialify.git.ci/sudojia/scripts/image?description=1&font=Bitter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Auto)
+<p align="center">
+<h1 align="center">scripts</h1>
+</p>
+<p align="center">
+    一些脚本，每天定时自动签到
+    <br/>
+    <br/>
+    <a href="https://github.com/sudojia/scripts/issues/new" target="_blank">🐛上报 Bug、🤔问题反馈、📄需求提报！</a>
+</p>
+<p align="center">
+    <img alt="Gitea Stars" src="https://img.shields.io/github/stars/sudojia/scripts?style=flat-square&logo=GitHub">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/sudojia/scripts?style=flat-square&logo=GitHub">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/sudojia/scripts?style=flat-square&logo=GitHub">
+    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues-closed-raw/sudojia/scripts?style=flat-square&logo=GitHub">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/sudojia/scripts?style=flat-square&logo=GitHub">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/sudojia/scripts?style=flat-square">
+</p>
 
 
 
