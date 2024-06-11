@@ -1,7 +1,6 @@
 /**
- * 库街区APP-鸣潮 https://www.kurobbs.com/
- * 打开库街区APP，登录之后抓请求头 Token
- * 多账号用 & 隔开
+ * 库街区-鸣潮 https://www.kurobbs.com/
+ * KURO_TOKEN 多账号用 & 隔开
  *
  * @author Telegram@sudojia
  * @site https://blog.imzjw.cn
