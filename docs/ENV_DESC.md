@@ -106,9 +106,9 @@ https://xxxxx.com@SgL6_2132_auth=xxxxxxxxxxx;SgL6_2132_saltkey=xxxxxx&https://xx
 
 ### 库街区
 
-|      Name       |   Value    |                             说明                             |
-| :-------------: | :--------: | :----------------------------------------------------------: |
-| `KUROAPP_TOKEN` | `xxxxxxxx` | 打开 APP 登录，抓包 Host：`https://api.kurobbs.com` <br>随便哪个请求，找到请求头 **token**<br>多个账号用 `&` 隔开 |
+|     Name     |   Value    |                             说明                             |
+| :----------: | :--------: | :----------------------------------------------------------: |
+| `KURO_TOKEN` | `xxxxxxxx` | 打开 APP 登录，抓包 Host：`https://api.kurobbs.com` <br>随便哪个请求，找到请求头 **token**<br>多个账号用 `&` 隔开 |
 
 PC 端 Token 获取：
 
