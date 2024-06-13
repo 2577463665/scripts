@@ -10,4 +10,4 @@
 |    `sudojia_tieba.js`    |   [百度贴吧](https://tieba.baidu.com/)   |                       每日签到所有贴吧                       |
 |    `sudojia_v2ex.js`     |      [V2EX](https://www.v2ex.com/)       |                           每日签到                           |
 |    `sudojia_znds.js`     |    [智能电视](https://www.znds.com/)     |                       每日签到获得金币                       |
-|   ` sudojia_kuro.js `    |    [库街区](https://www.kurobbs.com/)    |  库街区APP，每日签到获得库洛币<br>鸣潮每日签到获得签到奖励   |
+|   ` sudojia_kuro.js `    |    [库街区](https://www.kurobbs.com/)    | 库街区APP，每日签到获得库洛币<br>         鸣潮每日签到获得签到奖励<br>战双每日签到获得签到奖励 |
