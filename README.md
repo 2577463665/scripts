@@ -20,10 +20,10 @@
 
 
 - [💍介绍](#介绍)
-- [🔛使用](#使用)
 - [👍服务器推荐](#服务器推荐)
 - [⭐点个 Star 支持作者](#点个-star-支持作者)
 - [⚖️许可证](#%EF%B8%8F许可证)
+- [🙏赞赏](#赞赏)
 - [⚠️免责声明](#%EF%B8%8F免责声明)
 - [🕛更新日志 ](#更新日志)
 
@@ -31,44 +31,7 @@
 
 这是一个基于本人无聊时开发的自动化脚本，旨在每天定时自动执行一些签到奖励以及繁琐任务！
 
-- [💡查看环境变量配置指南](./docs/ENV_DESC.md "环境变量配置指南")
-- [📑查看脚本列表](./docs/SCRIPT_LIST.md "快速访问所有脚本详情")
-
-## 🔛使用
-
-**青龙面板（推荐）**
-
-1. 在订阅管理创建订阅并在名称处粘贴拉库命令即可
-
-   ```shell
-   ql repo https://github.com/sudojia/scripts.git "sudojia_" "" "utils" "script"
-   ```
-
-   Cron 建议 `15 8,13,20 */2 * *` 每隔两天检测订阅，名称随意
-
-2. 在环境变量创建对应的变量后即可，脚本会定时运行，你也可以到定时任务里手动运行一次
-
-3. 在依赖管理处创建依赖，并复制添加如下依赖，自动拆分选择 **"是"**
-
-   ```shell
-   axios
-   cheerio
-   download
-   http-server
-   moment
-   tough-cookie
-   tunnel
-   ws
-   got
-   ```
-
-**GitHub Actions（不推荐）**
-
-- 在 fork 的仓库中，你可以通过点击 `Settings`（设置）-> `Secrets`（密钥）-> `New repository secret`（新建仓库密钥）来添加所需的环境变量。
-- **建议**：如果你有某些 Actions 文件不运行，设置 `Disable workflow`（禁用工作流）以避免触发 GitHub 的某些机制，可能会因为违反使用条款而**导致账号被封**。
-- 使用 GitHub Actions 时，请确保遵守 [【GitHub Actions 使用条款】](https://docs.github.com/github/site-policy/github-terms-for-additional-products-and-features#actions)。这些条款详细说明了使用 GitHub Actions 时的限制和规定，确保你的使用行为符合 GitHub 的政策。
-
-![禁用工作流](https://img.gugu.ovh/i/2024/06/04/173912.webp)
+- [💡脚本食用指南](https://github.com/sudojia/scripts/wiki/%F0%9F%92%A1%E8%84%9A%E6%9C%AC%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97 "脚本食用指南")
 
 ## 👍服务器推荐
 
@@ -89,6 +52,12 @@
 ## ⚖️许可证
 
 本脚本库使用 [GPLv3](https://github.com/sudojia/scripts/blob/script/LICENSE) 许可证，脚本库中任何脚本未经允许**不可商用**。宣传或转载时请带上[本脚本库链接](https://github.com/sudojia/scripts)。
+
+## 🙏赞赏
+
+您可以选择以打赏的方式来表达您的赞赏。无论是一杯奶茶🧋还是一包辣条🌶️，每一份打赏都是我开发脚本的极大鼓励，也是我继续前进的动力。
+
+![pay](https://registry.npmmirror.com/nanshen/0.1.11/files/img/appreciate.png)
 
 ## ⚠️免责声明
 
@@ -111,6 +80,7 @@
 
 
 
+- 2024-06-15 新增皮皮世界-养宠得好礼脚本
 - 2024-06-13 库街区新增战双签到
 - 2024-06-10 新增[库街区](https://www.kurobbs.com/)签到及鸣潮签到
 
