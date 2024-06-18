@@ -32,6 +32,7 @@
 这是一个基于本人无聊时开发的自动化脚本，旨在每天定时自动执行一些签到奖励以及繁琐任务！
 
 - [💡脚本食用指南](https://github.com/sudojia/scripts/wiki/%F0%9F%92%A1%E8%84%9A%E6%9C%AC%E9%A3%9F%E7%94%A8%E6%8C%87%E5%8D%97 "脚本食用指南")
+- [【Sub Telegram Channels】](https://t.me/hintlane)
 
 ## 👍服务器推荐
 
