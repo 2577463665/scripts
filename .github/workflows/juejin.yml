@@ -3,7 +3,7 @@ name: juejin
 on:
   workflow_dispatch:
   schedule:
-    - cron: "42 1,9 * * *"
+    - cron: "42 2 * * *"
 
 jobs:
   build:
