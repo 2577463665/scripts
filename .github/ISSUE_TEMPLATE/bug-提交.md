@@ -3,7 +3,7 @@ name: Bug 提交
 about: 使用此模板来提交一个 Bug
 title: ''
 labels: bug
-assignees: sudojia
+assignees: ''
 
 ---
 
