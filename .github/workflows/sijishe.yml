@@ -29,9 +29,13 @@ jobs:
         run: |
           npm install
 
+      - name: Run Check Sijishe
+        run: |
+          chmod +x ./check_sijishe.sh
+          ./check_sijishe.sh
+
       - name: Start running the script
         run: |
-          ./check_sijishe.sh
           node sudojia_sijishe.js
         env:
           SJS_COOKIE: ${{ secrets.SJS_COOKIE }}
