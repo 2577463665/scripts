@@ -9,7 +9,7 @@ assignees: ''
 
 ## BUG 提交
 
-> 请按照以下模板进行**详细**填写，否则将关闭问题，不予答复。
+> 请先查看：[Issues 说明](https://github.com/sudojia/scripts/tree/script?tab=readme-ov-file#issues-%E8%AF%B4%E6%98%8E)
 
 **脚本名称**：sudojia_tieba.js
 

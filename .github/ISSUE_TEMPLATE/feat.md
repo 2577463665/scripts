@@ -9,9 +9,7 @@ assignees: ''
 
 ## 功能请求
 
-> 请按照以下模板进行**详细**填写
-
-> 注意：如果 issues 被关闭，则说明不会开发此脚本，或者对我没多大用处又或者太复杂没有精力写等，请谅解。
+> 请先查看：[Issues 说明](https://github.com/sudojia/scripts/tree/script?tab=readme-ov-file#issues-%E8%AF%B4%E6%98%8E)
 
 **网站 / 小程序**：https://xxxx.com / 某某某小程序
 
