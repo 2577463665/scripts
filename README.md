@@ -5,7 +5,7 @@
     一些脚本，每天定时自动签到
     <br/>
     <br/>
-    <a href="https://github.com/sudojia/scripts/issues/new" target="_blank">🐛上报 Bug、🤔问题反馈、📄需求提报！</a>
+    <a href="https://github.com/sudojia/scripts/issues/new/choose" target="_blank">🐛上报 Bug、🤔问题反馈、📄需求提报！</a>
 </p>
 <p align="center">
     <img alt="Gitea Stars" src="https://img.shields.io/github/stars/sudojia/scripts?style=flat-square&logo=GitHub">
