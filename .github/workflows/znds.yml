@@ -1,9 +1,9 @@
-name: sspanel
+name: znds
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "43 2 * * *"
+    - cron: "12 3 * * *"
 
 jobs:
   build:
@@ -31,9 +31,9 @@ jobs:
 
       - name: Start running the script
         run: |
-          node sudojia_sspanel.js
+          node sudojia_znds.js
         env:
-          SITE_ACCOUNTS: ${{ secrets.SITE_ACCOUNTS }}
+          ZNDS_COOKIE: ${{ secrets.ZNDS_COOKIE }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}

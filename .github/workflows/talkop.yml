@@ -1,9 +1,9 @@
-name: sspanel
+name: talkop
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "43 2 * * *"
+    - cron: "26 3 * * *"
 
 jobs:
   build:
@@ -31,9 +31,9 @@ jobs:
 
       - name: Start running the script
         run: |
-          node sudojia_sspanel.js
+          node sudojia_talkop.js
         env:
-          SITE_ACCOUNTS: ${{ secrets.SITE_ACCOUNTS }}
+          TALKOP_COOKIE: ${{ secrets.TALKOP_COOKIE }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}

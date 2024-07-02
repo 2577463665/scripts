@@ -3,31 +3,33 @@ name: v2ex
 on:
   workflow_dispatch:
   schedule:
-    - cron: "12 1 * * *"
+    - cron: "35 0 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Use Node.js 12
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+      - name: Use Node.js 14
+        uses: actions/setup-node@v4
         with:
-          node-version: "12.x"
+          node-version: '14.x'
 
-      - name: Caching dependency packages
-        uses: actions/cache@v2.1.1
-        id: cache-dependencies
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        id: cache-node-modules
         with:
           path: node_modules
-          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+          key: ${{ runner.os }}-${{ matrix.node-version }}-nodeModules-${{ hashFiles('package-lock.json') }}-${{ hashFiles('package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ matrix.node-version }}-nodeModules-
 
       - name: Install dependency packages
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: |
           npm install
 
-      - name: Run
+      - name: Start running the script
         run: |
           node sudojia_v2ex.js
         env:
